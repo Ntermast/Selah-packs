@@ -1,30 +1,150 @@
 [
   {
+    "id": "amp",
+    "code": "AMP",
+    "title": "Amplified Bible",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
     "id": "bsb",
+    "code": "BSB",
     "title": "Berean Standard Bible",
     "type": "bible",
     "language": "en",
     "version": "1",
+    "status": "available",
     "size_bytes": 7938048,
     "sha256": "17cc4474152c1fcbba1313ccf6cf685400528e6bb8bfefe866aed35f9422915d",
     "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/bsb.db"
   },
   {
+    "id": "cev",
+    "code": "CEV",
+    "title": "Contemporary English Version",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
+    "id": "darby",
+    "code": "DARBY",
+    "title": "Darby Translation",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "available",
+    "size_bytes": 8122368,
+    "sha256": "8466ffd57a4f3ff0ebfdd3bfe584c258329da9fe3408645b06ba21c2dbe31277",
+    "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/darby.db"
+  },
+  {
+    "id": "kjv",
+    "code": "KJV",
+    "title": "King James Version",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "available",
+    "size_bytes": 8192000,
+    "sha256": "670223f4387e463fa2c5bb1cc8c19162e857405e93872b5aa41b2e34a26ae1b0",
+    "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/kjv.db"
+  },
+  {
+    "id": "msg",
+    "code": "MSG",
+    "title": "The Message",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
+    "id": "niv",
+    "code": "NIV",
+    "title": "New International Version",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
+    "id": "nlt",
+    "code": "NLT",
+    "title": "New Living Translation",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
+    "id": "bcc1923",
+    "code": "BCC1923",
+    "title": "Bible Crampon 1923",
+    "type": "bible",
+    "language": "fr",
+    "version": "1",
+    "status": "preparing"
+  },
+  {
+    "id": "bds",
+    "code": "BDS",
+    "title": "Bible du Semeur",
+    "type": "bible",
+    "language": "fr",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
     "id": "jnd",
+    "code": "JND",
     "title": "Bible J.N. Darby",
     "type": "bible",
     "language": "fr",
     "version": "1",
+    "status": "available",
     "size_bytes": 8724480,
     "sha256": "2fa6937d1ad3bcc7246cf77ed90fb14486257253b58ffd4a4de08e2eeae0e59b",
     "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/jnd.db"
   },
   {
+    "id": "pdv2017",
+    "code": "PDV2017",
+    "title": "Parole de Vie 2017",
+    "type": "bible",
+    "language": "fr",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
+    "id": "s21",
+    "code": "S21",
+    "title": "Segond 21",
+    "type": "bible",
+    "language": "fr",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
+    "id": "suv",
+    "code": "SUV",
+    "title": "Swahili Union Version",
+    "type": "bible",
+    "language": "sw",
+    "version": "1",
+    "status": "license_required"
+  },
+  {
     "id": "swh-ulb",
+    "code": "ULB",
     "title": "Biblia Takatifu — Swahili ULB",
     "type": "bible",
     "language": "sw",
     "version": "1",
+    "status": "available",
     "size_bytes": 8159232,
     "sha256": "a32b95c771b3b44cc33953562366a3b071f9d714dffe948b7ef7dbb4c4dcc39d",
     "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/swh-ulb.db"

@@ -6,17 +6,23 @@ kept in the private `Ntermast/Selah` repository.
 
 ## Catalog
 
-Selah reads [`catalog.json`](catalog.json), downloads the selected pack, then
-checks its byte length, SHA-256 digest, pack identity, language, type and
-version before installing it.
+Selah reads [`catalog.json`](catalog.json), groups translations by language,
+and shows both downloadable and requested editions. Entries marked
+`available` can be downloaded. Entries marked `license_required` or
+`preparing` are informational and have no download URL.
+
+Before installation, Selah checks each download's byte length, SHA-256 digest,
+pack identity, language, type and version.
 
 | Pack | Language | Source and license information |
 | --- | --- | --- |
 | Berean Standard Bible (`bsb`) | English | [Berean Bible](https://berean.bible/) |
+| King James Version (`kjv`) | English | [eBible.org](https://ebible.org/Scriptures/details.php?id=eng-kjv2006) |
+| Darby Translation (`darby`) | English | [eBible.org](https://ebible.org/Scriptures/details.php?id=engDBY) |
 | Bible J.N. Darby (`jnd`) | French | [eBible.org](https://ebible.org/Scriptures/details.php?id=frajnd) |
 | Biblia Takatifu, ULB (`swh-ulb`) | Swahili | [eBible.org](https://ebible.org/Scriptures/details.php?id=swhulb) |
 
-The packs were generated from the
+The downloadable packs were generated from the
 [HelloAO Free Use Bible API](https://bible.helloao.org/docs/). Each database
 also stores its source identifier, source URL and license URL in `pack_info`.
 Refer to the linked source page for the terms that apply to each translation.
