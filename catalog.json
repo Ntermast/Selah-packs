@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bsb",
+    "title": "Berean Standard Bible",
+    "type": "bible",
+    "language": "en",
+    "version": "1",
+    "size_bytes": 7938048,
+    "sha256": "17cc4474152c1fcbba1313ccf6cf685400528e6bb8bfefe866aed35f9422915d",
+    "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/bsb.db"
+  },
+  {
+    "id": "jnd",
+    "title": "Bible J.N. Darby",
+    "type": "bible",
+    "language": "fr",
+    "version": "1",
+    "size_bytes": 8724480,
+    "sha256": "2fa6937d1ad3bcc7246cf77ed90fb14486257253b58ffd4a4de08e2eeae0e59b",
+    "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/jnd.db"
+  },
+  {
+    "id": "swh-ulb",
+    "title": "Biblia Takatifu — Swahili ULB",
+    "type": "bible",
+    "language": "sw",
+    "version": "1",
+    "size_bytes": 8159232,
+    "sha256": "a32b95c771b3b44cc33953562366a3b071f9d714dffe948b7ef7dbb4c4dcc39d",
+    "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/swh-ulb.db"
+  }
+]
