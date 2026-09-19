@@ -19,11 +19,13 @@ pack identity, language, type and version.
 | Berean Standard Bible (`bsb`) | English | [Berean Bible](https://berean.bible/) |
 | King James Version (`kjv`) | English | [eBible.org](https://ebible.org/Scriptures/details.php?id=eng-kjv2006) |
 | Darby Translation (`darby`) | English | [eBible.org](https://ebible.org/Scriptures/details.php?id=engDBY) |
+| Bible Crampon 1923 (`bcc1923`) | French | [OSIS Bibles](https://github.com/bzerangue/osis-bibles/blob/master/fr/cramp23.xml), [public-domain declaration](https://www.crosswire.org/sword/copyright/ModInfoCopyright.jsp?modName=FreCrampon) |
 | Bible J.N. Darby (`jnd`) | French | [eBible.org](https://ebible.org/Scriptures/details.php?id=frajnd) |
 | Biblia Takatifu, ULB (`swh-ulb`) | Swahili | [eBible.org](https://ebible.org/Scriptures/details.php?id=swhulb) |
 
-The downloadable packs were generated from the
-[HelloAO Free Use Bible API](https://bible.helloao.org/docs/). Each database
+Most downloadable packs were generated from the
+[HelloAO Free Use Bible API](https://bible.helloao.org/docs/); BCC1923 was
+converted from its public-domain OSIS source. Each database
 also stores its source identifier, source URL and license URL in `pack_info`.
 Refer to the linked source page for the terms that apply to each translation.
 

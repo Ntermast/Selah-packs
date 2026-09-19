@@ -87,7 +87,10 @@
     "type": "bible",
     "language": "fr",
     "version": "1",
-    "status": "preparing"
+    "status": "available",
+    "size_bytes": 8495104,
+    "sha256": "ad976eb766077b5cf50c54e18e0f61d434dfc83f9a52b8f7864016db247dbc98",
+    "url": "https://raw.githubusercontent.com/Ntermast/Selah-packs/main/bcc1923.db"
   },
   {
     "id": "bds",
